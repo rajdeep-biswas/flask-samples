@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+	<h3>words found: {{count}}</h3>
+	<ul>
+		{% for word in WORDS %}
+		<li>{{ word }}</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

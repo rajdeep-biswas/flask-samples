@@ -1,0 +1,13 @@
+body {
+	background-color: #132;
+	font-size: 20px;
+	color: #DD0;
+}
+
+input, select {
+	margin: 10px 20px 0 0;
+}
+
+h4 {
+	color: #FFA;
+}

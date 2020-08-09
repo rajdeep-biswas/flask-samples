@@ -1,0 +1,14 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Participant</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}"> 
+	</head>
+
+	<body>
+		<h3>Name: {{name}}</h3>
+		<h3>House: {{house}}</h3>
+		<h4>PS: this is brilliant. since you used post WITHOUT an extended url,<br>the post data is gonna remain in there.<br>try refreshing, it won't work.<br>it will only go back to the main page if you hit enter at the address bar,<br>only that will work (besides the back button), since the url is the only way you can send GET data</h4>
+	</body>
+</html>

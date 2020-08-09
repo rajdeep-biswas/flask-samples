@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta name="viewport" content="initial-scale=1, width=device-width">
+		<title>wordSearchResponsive</title>
+	</head>
+	<body>
+
+		<input autocomplete="off" type="text" placeholder="text">
+		<ul></ul>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script>
+			// here we are using a tehnique called AJAX; Asynchronous JavaScript and XML
+			// i.e using jquery to talk to the server and return <li> elements
+
+			let input = document.querySelector('input');
+			input.onkeyup = function() {
+				$.get('/search?q=' + input.value, function(data) {
+					document.querySelector('ul').innerHTML = data;
+				});
+			};
+
+		</script>
+		</body>
+</html>

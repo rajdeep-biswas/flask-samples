@@ -1,0 +1,25 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Sports Registration</title>
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/style.css') }}"> 
+	</head>
+
+	<body>
+		<!-- this sends post data to base url, to use extended url, e.g send add attribute action="/send" -->
+		<form method="post">
+			name: <input type="text" name="name"><br />
+			house: <select name="house">
+				<option></option>
+				<option value="Pedophile">Nehru</option>
+				<option value="Saltbae">Gandhi</option>
+				<option value="Former Knight">Tagore</option>
+				<option value="Lal Bahadur Self Explanatory">Shastri</option>
+			</select> <br />
+			<input type="submit">
+		</form>
+		<h4>check if landing pages are allowed to have POST method</h4>
+		<h5>also: localhost is just for the host machine, not LAN</h5>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+body {
+	background-color: #132;
+	font-size: 20px;
+	color: #DD0;
+}
+
+input, select {
+	margin: 10px 20px 0 0;
+}
+
+h4 {
+	color: #FFA;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #9CF;
+	text-decoration: none;
+}
+
+.menu {
+	list-style-type: none;
+}
+
+.menuItem {
+	display: inline;
+	padding: 5px;
+}

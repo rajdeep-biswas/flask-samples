@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+	<ul>
+		{% for student in students %}
+		<li>{{student[0]}} from {{student[1]}}</li>
+		{% endfor %}
+	</ul>
+	<h4>PS: this is <b>yet</b> to go onto the database</h4>
+{% endblock %}

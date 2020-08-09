@@ -1,0 +1,45 @@
+body {
+	background-color: #221D21;
+	color: #FFFBFE;
+	font-family: ubuntu;
+	font-size: 40px;
+	padding-left: 40px;
+}
+
+input, select, textarea {
+	background-color: #322D31;
+	border: 0px;
+	border-bottom: 4px solid #C2272C;
+	border-radius: 8px;
+	color: #C2272C;
+	font-family: ubuntu;
+	font-size: 40px;
+	padding: 20px;
+	margin: 10px 30px 0 0;
+}
+
+.underline {
+	text-decoration: underline;
+	text-decoration-color: #C2272C;
+}
+
+#emmawatson {
+	color: #C2272C;
+}
+
+h4, h5 {
+	color: #DEC3BE;
+	padding-right: 700px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+input.button {
+	background-color: #C2272C;
+	border: 0px;
+	border-bottom: 4px solid #322D31;
+	border-radius: 8px;
+	color: #FFFBFE;
+}
